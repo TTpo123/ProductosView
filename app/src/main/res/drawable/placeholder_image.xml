@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#CCCCCC" /> <!-- Color de fondo gris -->
+        </shape>
+    </item>
+    <item android:bottom="8dp" android:right="8dp" android:left="8dp" android:top="8dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="4dp" /> <!-- Bordes redondeados -->
+            <solid android:color="#FFFFFF" /> <!-- Color del círculo blanco -->
+        </shape>
+    </item>
+</layer-list>
